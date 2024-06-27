@@ -1,15 +1,11 @@
-<script setup lang="ts">
-import {useUserStore } from './store/user'
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-
-const userStore = useUserStore()
-
-</script>
-
 <template>
-  <RouterView><RouterView />
+<RouterView><RouterView/>
 </template>
 
+<script setup lang="ts"> 
+ 
+</script>
+
 <style scoped lang="scss">
+
 </style>
